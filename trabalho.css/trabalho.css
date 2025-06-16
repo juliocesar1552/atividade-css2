@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.conteiner{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+nav  img{
+    width: 150px;
+    background-color: blue;
+    
+}
+
+nav{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px ;
+    align-items: center;
+    background-color: blue;
+}
+
+a{
+    color: rgb(241, 240, 243);
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(63, 106, 250);
+    
+}
+
+.jhu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner1{
+    background-color: rgb(40, 40, 212);
+    margin: 20px;
+    border-radius: 20px;
+    width: 60%;
+}
+
+#pl{
+    margin: 35px;
+    height: 45vh;
+    width: 56vw;
+    border-radius: 20px;
+
+}
+
+h1{
+  font-style: oblique;
+  text-align: center;
+  
+}
+
+.conteiner33{
+    align-items: flex-end;
+    height: 13px;
+    
+ 
+}
+
+
+
+.frt44{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fotos img {
+    width: 25vw;
+    height: 230px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.pl{
+    background-color: rgb(34, 34, 226);
+    border-radius: 25px;
+    width: 25%;
+
+
+}
+
+.pl:hover{
+    transform: scale(1.02);
+}
+
+.texto{
+    background-color: aliceblue;
+    border-radius: 13px;
+  margin: 10px;
+}
+
+button{
+    width: 140px;
+    height: 50px;
+    padding: 10px 15px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    color: #fcf9f9;
+    margin: 5px;
+    cursor: pointer;
+    
+
+}
+
+button:hover{
+    background-color: rgb(66, 60, 60);
+    
+}
+
+p{
+    margin: 10px;
+    font-style: inherit;
+}
+
+.pl1{
+    background-color: rgb(15, 15, 196);
+    border-radius: 25px;
+    width: 30%;
+    margin: 15px;
+
+}
+
+.pl1:hover{
+    transform: scale(1.02);
+}
+
+
+footer{
+    display: flex;
+    background-color: rgb(16, 13, 235);
+    color: aliceblue;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
